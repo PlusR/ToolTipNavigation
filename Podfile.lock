@@ -1,0 +1,20 @@
+PODS:
+  - CMPopTipView (2.2.0)
+  - Kiwi (2.3.1)
+  - ToolTipNavigation (1.0.0):
+    - CMPopTipView
+
+DEPENDENCIES:
+  - Kiwi
+  - ToolTipNavigation (from `./`)
+
+EXTERNAL SOURCES:
+  ToolTipNavigation:
+    :path: ./
+
+SPEC CHECKSUMS:
+  CMPopTipView: a0a88404b9f46a5cfc16ce54bdb1b9bf9acb9aff
+  Kiwi: f038a6c61f7a9e4d7766bff5717aa3b3fdb75f55
+  ToolTipNavigation: 853f63a47149b4c322e80c456228f61065f147c1
+
+COCOAPODS: 0.37.2
