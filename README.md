@@ -2,7 +2,7 @@
 
 This library is a library for managing the display of CMPopTipView. Such as tutorial, you used when you want to display a pop tip with a series of flows.
 
-[![gif](gif/ToolTipNavigation.gif)]
+![gif](gif/ToolTipNavigation.gif)
 
 [![Version](https://img.shields.io/cocoapods/v/ToolTipNavigation.svg?style=flat)](http://cocoadocs.org/docsets/ToolTipNavigation)
 [![License](https://img.shields.io/cocoapods/l/ToolTipNavigation.svg?style=flat)](http://cocoadocs.org/docsets/ToolTipNavigation)
