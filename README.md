@@ -7,18 +7,16 @@
 
 ## Usage
 
-AppDelegateに対して、`appLaunched`, `willResignActive`, `willEnterForeground`を実装すること
-Info.plist に対して`SID`, `Short Name`を設定してください。
 
 
 ## Requirements
 
 ## Installation
 
-DialogueAd is available through [CocoaPods](http://cocoapods.org). To install
+ToolTipNavigation is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-    pod "DialogueAd"
+    pod "ToolTipNavigation"
 
 ## Author
 
