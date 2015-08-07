@@ -1,15 +1,24 @@
 # ToolTipNavigation
 
-[![CI Status](http://img.shields.io/travis/PlusR/ToolTipNavitation.svg?style=flat)](https://travis-ci.org/PlusR/ToolTipNavitation)
-[![Version](https://img.shields.io/cocoapods/v/ToolTipNavitation.svg?style=flat)](http://cocoadocs.org/docsets/ToolTipNavitation)
-[![License](https://img.shields.io/cocoapods/l/ToolTipNavitation.svg?style=flat)](http://cocoadocs.org/docsets/ToolTipNavitation)
-[![Platform](https://img.shields.io/cocoapods/p/ToolTipNavitation.svg?style=flat)](http://cocoadocs.org/docsets/ToolTipNavitation)
+This library is a library for managing the display of CMPopTipView. Such as tutorial, you used when you want to display a pop tip with a series of flows.
+
+[![gif](gif/ToolTipNavigation.gif)]
+
+[![Version](https://img.shields.io/cocoapods/v/ToolTipNavigation.svg?style=flat)](http://cocoadocs.org/docsets/ToolTipNavigation)
+[![License](https://img.shields.io/cocoapods/l/ToolTipNavigation.svg?style=flat)](http://cocoadocs.org/docsets/ToolTipNavigation)
+[![Platform](https://img.shields.io/cocoapods/p/ToolTipNavigation.svg?style=flat)](http://cocoadocs.org/docsets/ToolTipNavigation)
+
 
 ## Usage
 
+Set String you want to display the tool tip to `altAccessibilityHint` of each View. `[[ToolTipNavigation sharedManager] showInViewController: self];` please have the call.
 
 
-## Requirements
+```
+self.button.altAccessibilityHint = @"Tool tip";
+
+[[ToolTipNavigation sharedManager] showInViewController:self];
+```
 
 ## Installation
 
@@ -24,5 +33,5 @@ akuraru, akuraru@gmail.com
 
 ## License
 
-DialogueAd is available under the MIT license. See the LICENSE file for more info.
+ToolTipNavitation is available under the MIT license. See the LICENSE file for more info.
 
