@@ -1,9 +1,9 @@
-# DialogueAd
+# ToolTipNavigation
 
-[![CI Status](http://img.shields.io/travis/akuraru/DialogueAd.svg?style=flat)](https://travis-ci.org/akuraru/DialogueAd)
-[![Version](https://img.shields.io/cocoapods/v/DialogueAd.svg?style=flat)](http://cocoadocs.org/docsets/DialogueAd)
-[![License](https://img.shields.io/cocoapods/l/DialogueAd.svg?style=flat)](http://cocoadocs.org/docsets/DialogueAd)
-[![Platform](https://img.shields.io/cocoapods/p/DialogueAd.svg?style=flat)](http://cocoadocs.org/docsets/DialogueAd)
+[![CI Status](http://img.shields.io/travis/PlusR/ToolTipNavitation.svg?style=flat)](https://travis-ci.org/PlusR/ToolTipNavitation)
+[![Version](https://img.shields.io/cocoapods/v/ToolTipNavitation.svg?style=flat)](http://cocoadocs.org/docsets/ToolTipNavitation)
+[![License](https://img.shields.io/cocoapods/l/ToolTipNavitation.svg?style=flat)](http://cocoadocs.org/docsets/ToolTipNavitation)
+[![Platform](https://img.shields.io/cocoapods/p/ToolTipNavitation.svg?style=flat)](http://cocoadocs.org/docsets/ToolTipNavitation)
 
 ## Usage
 
