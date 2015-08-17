@@ -17,6 +17,8 @@
 
 - (void)showInViewController:(UIViewController *)viewController handler:(void (^)())handler;
 
+- (void)dismissAll;
+
 - (BOOL)isShowedPopup:(NSString *)string;
 
 - (void)setShowedPopup:(NSString *)string;

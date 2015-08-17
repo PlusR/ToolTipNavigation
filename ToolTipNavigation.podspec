@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "ToolTipNavigation"
-  s.version          = "1.0.1"
+  s.version          = "1.0.2"
   s.summary          = "tool tip navigation"
   s.description      = <<-DESC
                        This library is a library for managing the display of CMPopTipView. Such as tutorial, you used when you want to display a pop tip with a series of flows.
