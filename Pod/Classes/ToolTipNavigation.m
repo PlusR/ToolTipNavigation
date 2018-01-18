@@ -16,6 +16,7 @@ static ToolTipNavigation *sharedManager_ = nil;
 + (ToolTipNavigation *)sharedManager {
     if (!sharedManager_) {
         sharedManager_ = [[self alloc] init];
+        sharedManager_.showAgainIfUntapped = true;
     }
     return sharedManager_;
 }
@@ -92,6 +93,10 @@ static ToolTipNavigation *sharedManager_ = nil;
         [popTipView setDelegate:self];
         if (self.customPopTipView) {
             self.customPopTipView(popTipView);
+        }
+        
+        if (!self.showAgainIfUntapped) {
+            [self setShowedPopup:popupText];
         }
 
         UIView *activeView = viewcController.view;

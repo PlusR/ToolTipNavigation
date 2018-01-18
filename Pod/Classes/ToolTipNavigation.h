@@ -8,6 +8,7 @@
 @property(nonatomic, strong) NSMutableArray *allElements;
 @property(nonatomic) NSUInteger currentDisplayIndex;
 @property(nonatomic, strong) NSMutableArray *allPopups;
+@property(nonatomic) BOOL showAgainIfUntapped; // 初期値=true
 
 @property(nonatomic, copy) void (^customPopTipView)(CMPopTipView *);
 

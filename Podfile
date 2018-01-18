@@ -1,10 +1,14 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'Sample', :exclusive => true do
+platform :ios, '7.0'
+
+inhibit_all_warnings!
+
+target 'Sample' do
   pod "ToolTipNavigation", :path => "./"
 end
 
-target 'Tests', :exclusive => true do
+target 'Tests' do
   pod "ToolTipNavigation", :path => "./"
 
   pod 'Kiwi'
